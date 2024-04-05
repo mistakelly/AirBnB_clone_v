@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+    console for managing my objects
+"""
 import datetime
 import models
 import cmd
