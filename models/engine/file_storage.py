@@ -63,7 +63,7 @@ class FileStorage:
 
         # print(serialized_obj)
         # dump into file storage
-        with open(self.__filepath, "w") as obj_dic:
+        with open(self.__file_path, "w") as obj_dic:
             json.dump(serialized_obj, obj_dic, indent=2)
 
     def reload(self) -> None:
@@ -75,8 +75,9 @@ class FileStorage:
         # open file
         # split the key of the dictionary
         # dynamically create classes base on the class name.
-        if path.exists(self.__filepath) and path.getsize(self.__filepath) > 0:
-            with open(self.__filepath, "r") as db:
+        if path.exists(self.__file_path) and\
+                path.getsize(self.__file_path) > 0:
+            with open(self.__file_path, "r") as db:
 
                 file_content = json.load(db)
 
