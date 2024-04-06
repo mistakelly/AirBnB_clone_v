@@ -1,5 +1,6 @@
+#!/usr/bin/python3
 """
-
+ unittests for my console
 """
 from io import StringIO
 from unittest.mock import patch
