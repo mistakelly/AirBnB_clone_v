@@ -12,7 +12,6 @@ from models.place import Place
 from models.amenity import Amenity
 from models.review import Review
 
-__all__ = ['FileStorage']
 
 
 class FileStorage:
@@ -28,8 +27,8 @@ class FileStorage:
         'Amenity': Amenity,
         'Review': Review
     }
+    __file_path = 'file.json'
     __objects = {}
-    __filepath = 'file.json'
 
     def new(self, obj) -> None:
 
