@@ -1,16 +1,16 @@
+#!/usr/bin/python3
 """
     responsible for persisting object state in file_db.
 """
-
 import json
 from os import path
 from models.base_model import BaseModel
 from models.user import User
-from models.State import state
-from models.City import city
-from models.Place import place
-from models.Amenity import amenity
-from models.Review import review
+from models.state import State
+from models.city import City
+from models.place import Place
+from models.amenity import Amenity
+from models.review import Review
 
 __all__ = ['FileStorage']
 
@@ -22,17 +22,16 @@ class FileStorage:
     ALL_CLASSES = {
         'BaseModel': BaseModel,
         'User': User,
-        'state': state,
-        'city': city,
-        'place': place,
-        'amenity': amenity,
-        'review': review
+        'State': State,
+        'City': City,
+        'Place': Place,
+        'Amenity': Amenity,
+        'Review': Review
     }
     __objects = {}
     __filepath = 'file.json'
 
     def new(self, obj) -> None:
-        print('inside new obj')
 
         """
             this adding New Object to file storage.
@@ -42,7 +41,6 @@ class FileStorage:
             obj.__class__.__name__, obj.id
         )
         self.__objects[key] = obj
-        print('after new obj')
 
     def all(self) -> dict:
         """
@@ -51,8 +49,7 @@ class FileStorage:
         """
         return self.__objects
 
-    def save_obj(self) -> None:
-        print('inside save method')
+    def save(self) -> None:
         """
             for converting the python objects into python dictionary,
             so they can be stored into the file storage,this process is called
@@ -71,7 +68,6 @@ class FileStorage:
         with open(self.__filepath, "w") as obj_dic:
             json.dump(serialized_obj, obj_dic, indent=2)
 
-            print("outside the save_obj")
 
     def reload(self) -> None:
         """

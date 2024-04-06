@@ -1,6 +1,9 @@
+#!/usr/bin/python3
+"""
+    BaseModel for creating every single attributes
+    that will be inherited for all objects
 """
 
-"""
 
 import uuid
 from datetime import datetime

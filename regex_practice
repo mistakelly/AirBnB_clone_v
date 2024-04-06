@@ -1,0 +1,24 @@
+
+
+ def do_create(self, arg) -> None:
+        pattern2 = r'([a-zA-Z_]+[=]["][\w]+\s\w+["])'
+        regex = re.compile(pattern2)
+        all_whitespace = regex.findall(arg)
+        for match in all_whitespace:
+            if ' ' in match:
+                modified_match = match.replace(" ", "_")
+                arg = arg.replace(match, modified_match)
+
+        usr_input_tokens = arg.split(' ')
+
+        if usr_input_tokens[0] in self.ALL_CLASSES:
+            obj = self.ALL_CLASSES[usr_input_tokens[0]]()
+            print(obj.id)
+            for token in range(1, len(usr_input_tokens)):
+                attribute, value = usr_input_tokens[token].split('=')
+                setattr(obj, attribute, value.strip('"'))
+            obj.save()
+        else:
+            print("** class dosen't exist")
+ """
+

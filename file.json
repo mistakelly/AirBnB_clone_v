@@ -1,0 +1,223 @@
+{
+  "State.ef4f8449-a2f7-4d16-aa3d-b2f94bb82da9": {
+    "id": "ef4f8449-a2f7-4d16-aa3d-b2f94bb82da9",
+    "created_at": "2024-04-06T04:57:19.679603",
+    "updated_at": "2024-04-06T04:57:19.679664",
+    "name": "kelly",
+    "__class__": "State"
+  },
+  "State.217dc0c1-aa09-461c-8c23-00646e24c484": {
+    "id": "217dc0c1-aa09-461c-8c23-00646e24c484",
+    "created_at": "2024-04-06T05:05:57.844979",
+    "updated_at": "2024-04-06T05:05:57.845039",
+    "name": "kelly",
+    "__class__": "State"
+  },
+  "Place.9d2cece0-77d6-4fa1-bf47-f2b2c8aa055d": {
+    "id": "9d2cece0-77d6-4fa1-bf47-f2b2c8aa055d",
+    "created_at": "2024-04-06T05:06:23.311772",
+    "updated_at": "2024-04-06T05:06:23.311836",
+    "city_id": "23e",
+    "description": "pijoiwjef",
+    "__class__": "Place"
+  },
+  "Place.71121e4b-da61-4d7e-b829-4bf73f03142d": {
+    "id": "71121e4b-da61-4d7e-b829-4bf73f03142d",
+    "created_at": "2024-04-06T05:06:52.612907",
+    "updated_at": "2024-04-06T05:06:52.613127",
+    "name": "book",
+    "city_id": "23",
+    "__class__": "Place"
+  },
+  "Place.d5bcb108-8a0c-42e7-a4c0-098733ba6d51": {
+    "id": "d5bcb108-8a0c-42e7-a4c0-098733ba6d51",
+    "created_at": "2024-04-06T05:07:23.828144",
+    "updated_at": "2024-04-06T05:07:23.828221",
+    "name": "book",
+    "__class__": "Place"
+  },
+  "State.2a801b89-eafd-43de-a1b5-f7026fc2676d": {
+    "id": "2a801b89-eafd-43de-a1b5-f7026fc2676d",
+    "created_at": "2024-04-06T05:09:45.715748",
+    "updated_at": "2024-04-06T05:09:45.715833",
+    "name": "kelly",
+    "__class__": "State"
+  },
+  "Place.c76a3b18-abe0-415e-baea-5fca348f5263": {
+    "id": "c76a3b18-abe0-415e-baea-5fca348f5263",
+    "created_at": "2024-04-06T05:10:01.350134",
+    "updated_at": "2024-04-06T05:10:01.350200",
+    "longitude": "23",
+    "__class__": "Place"
+  },
+  "State.8b45c067-d4ca-4eb9-8115-5e4619b2661b": {
+    "id": "8b45c067-d4ca-4eb9-8115-5e4619b2661b",
+    "created_at": "2024-04-06T05:12:26.083650",
+    "updated_at": "2024-04-06T05:12:26.083732",
+    "name": "oi",
+    "__class__": "State"
+  },
+  "Place.385c84da-c66b-495d-99f5-84fe43c984d0": {
+    "id": "385c84da-c66b-495d-99f5-84fe43c984d0",
+    "created_at": "2024-04-06T05:13:10.316423",
+    "updated_at": "2024-04-06T05:13:10.316850",
+    "name": "kelly",
+    "longitude": "32",
+    "__class__": "Place"
+  },
+  "Place.43670bb3-7398-46af-ab30-4ffa1fa8e4fd": {
+    "id": "43670bb3-7398-46af-ab30-4ffa1fa8e4fd",
+    "created_at": "2024-04-06T05:13:22.416600",
+    "updated_at": "2024-04-06T05:13:22.416778",
+    "longitude": "32",
+    "__class__": "Place"
+  },
+  "Place.f78f65d4-ca33-40be-bf86-cc8c4536a070": {
+    "id": "f78f65d4-ca33-40be-bf86-cc8c4536a070",
+    "created_at": "2024-04-06T05:13:46.273774",
+    "updated_at": "2024-04-06T05:13:46.273849",
+    "name": "kelly",
+    "longitude": "32",
+    "__class__": "Place"
+  },
+  "Place.7f85d678-bd84-43b6-a16f-b65abc898b36": {
+    "id": "7f85d678-bd84-43b6-a16f-b65abc898b36",
+    "created_at": "2024-04-06T05:15:27.205825",
+    "updated_at": "2024-04-06T05:15:27.205889",
+    "name": "kelly",
+    "longitude": "32",
+    "__class__": "Place"
+  },
+  "Place.95a35c0e-baed-4a50-a58a-fb7d8038eaaf": {
+    "id": "95a35c0e-baed-4a50-a58a-fb7d8038eaaf",
+    "created_at": "2024-04-06T05:15:36.637239",
+    "updated_at": "2024-04-06T05:15:36.637326",
+    "name": "kelly",
+    "longitude": "3.2",
+    "__class__": "Place"
+  },
+  "Place.2f3328b7-4a70-4c76-a91b-cf91543ea316": {
+    "id": "2f3328b7-4a70-4c76-a91b-cf91543ea316",
+    "created_at": "2024-04-06T05:16:16.730046",
+    "updated_at": "2024-04-06T05:16:16.730109",
+    "name": "kelly",
+    "longitude": "32",
+    "__class__": "Place"
+  },
+  "Place.3e9c6779-9cad-48f4-8db4-cb00922e5ff7": {
+    "id": "3e9c6779-9cad-48f4-8db4-cb00922e5ff7",
+    "created_at": "2024-04-06T05:16:20.479246",
+    "updated_at": "2024-04-06T05:16:20.479310",
+    "name": "kelly",
+    "longitude": "3.2",
+    "__class__": "Place"
+  },
+  "State.b6ccd3f7-d490-408c-9f4c-c0382734edf2": {
+    "id": "b6ccd3f7-d490-408c-9f4c-c0382734edf2",
+    "created_at": "2024-04-06T05:17:01.445634",
+    "updated_at": "2024-04-06T05:17:01.445698",
+    "__class__": "State"
+  },
+  "State.151a4de9-0876-46e5-8cf3-92952a26fb16": {
+    "id": "151a4de9-0876-46e5-8cf3-92952a26fb16",
+    "created_at": "2024-04-06T05:17:11.437244",
+    "updated_at": "2024-04-06T05:17:11.437336",
+    "name": "kelly",
+    "__class__": "State"
+  },
+  "State.dd92ef4d-21d6-4c54-ab12-30fe6a90f808": {
+    "id": "dd92ef4d-21d6-4c54-ab12-30fe6a90f808",
+    "created_at": "2024-04-06T05:17:49.955834",
+    "updated_at": "2024-04-06T05:17:49.955909",
+    "name": "kelly ayo okoye",
+    "__class__": "State"
+  },
+  "Place.008b7236-fa5c-44a4-a30a-02a4a0caf85f": {
+    "id": "008b7236-fa5c-44a4-a30a-02a4a0caf85f",
+    "created_at": "2024-04-06T05:19:19.839641",
+    "updated_at": "2024-04-06T05:19:19.839706",
+    "name": "ayo",
+    "city_id": "322",
+    "__class__": "Place"
+  },
+  "Place.ac751717-a0d1-4b3e-a501-daa9c2e6a2fb": {
+    "id": "ac751717-a0d1-4b3e-a501-daa9c2e6a2fb",
+    "created_at": "2024-04-06T05:19:33.303198",
+    "updated_at": "2024-04-06T05:19:33.303275",
+    "name": "ayo",
+    "city_id": "322",
+    "__class__": "Place"
+  },
+  "Place.405704af-de63-4c54-96f3-2bbcb7cdf4f8": {
+    "id": "405704af-de63-4c54-96f3-2bbcb7cdf4f8",
+    "created_at": "2024-04-06T05:19:41.177104",
+    "updated_at": "2024-04-06T05:19:41.177313",
+    "name": "ayo",
+    "city_id": "322",
+    "longitude": "2.3",
+    "__class__": "Place"
+  },
+  "Place.693164f1-ee84-49a2-8abe-1b95ae5a07eb": {
+    "id": "693164f1-ee84-49a2-8abe-1b95ae5a07eb",
+    "created_at": "2024-04-06T05:22:57.409660",
+    "updated_at": "2024-04-06T05:22:57.409729",
+    "name": "ayo",
+    "city_id": "322",
+    "__class__": "Place"
+  },
+  "Place.eb3d4b6b-58ed-4c3f-8613-d12d0d8dd90a": {
+    "id": "eb3d4b6b-58ed-4c3f-8613-d12d0d8dd90a",
+    "created_at": "2024-04-06T05:25:18.655347",
+    "updated_at": "2024-04-06T05:25:18.655408",
+    "name": "ayo",
+    "city_id": "322",
+    "__class__": "Place"
+  },
+  "Place.1642a994-b4a6-41db-99d8-db370471b170": {
+    "id": "1642a994-b4a6-41db-99d8-db370471b170",
+    "created_at": "2024-04-06T05:26:15.781750",
+    "updated_at": "2024-04-06T05:26:15.781814",
+    "name": "ayo",
+    "city_id": "322",
+    "__class__": "Place"
+  },
+  "Place.72b89958-e65a-44aa-9eee-d0000b5e2334": {
+    "id": "72b89958-e65a-44aa-9eee-d0000b5e2334",
+    "created_at": "2024-04-06T05:26:18.531057",
+    "updated_at": "2024-04-06T05:26:18.531101",
+    "name": "ayo",
+    "city_id": "322",
+    "__class__": "Place"
+  },
+  "Place.fda119b3-1725-47c7-9bb2-4439aa861dc7": {
+    "id": "fda119b3-1725-47c7-9bb2-4439aa861dc7",
+    "created_at": "2024-04-06T05:27:12.964428",
+    "updated_at": "2024-04-06T05:27:12.964489",
+    "name": "ayo",
+    "city_id": "322",
+    "__class__": "Place"
+  },
+  "Place.01ffa1b4-b574-4e8c-bc6a-95beffa9a83b": {
+    "id": "01ffa1b4-b574-4e8c-bc6a-95beffa9a83b",
+    "created_at": "2024-04-06T05:27:32.197353",
+    "updated_at": "2024-04-06T05:27:32.197430",
+    "name": "ayo",
+    "city_id": "322",
+    "__class__": "Place"
+  },
+  "Place.30cc538f-63dc-4624-a900-b17d79db5141": {
+    "id": "30cc538f-63dc-4624-a900-b17d79db5141",
+    "created_at": "2024-04-06T05:27:50.936259",
+    "updated_at": "2024-04-06T05:27:50.936359",
+    "name": "ayo",
+    "city_id": "322",
+    "__class__": "Place"
+  },
+  "Place.57825076-0728-4c63-9128-a16ac4d41e14": {
+    "id": "57825076-0728-4c63-9128-a16ac4d41e14",
+    "created_at": "2024-04-06T05:28:22.744835",
+    "updated_at": "2024-04-06T05:28:22.744907",
+    "city_id": "322",
+    "__class__": "Place"
+  }
+}

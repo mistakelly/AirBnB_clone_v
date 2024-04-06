@@ -1,0 +1,6 @@
+(hbnb) 6ffc3b52-bc30-42fb-a6fd-c9532e2c2a53
+(hbnb) 46e1d370-5e8c-42c8-9635-4058bbb5ba3c
+(hbnb) ["[State] (6ffc3b52-bc30-42fb-a6fd-c9532e2c2a53) {'id': '6ffc3b52-bc30-42fb-a6fd-c9532e2c2a53', 'created_at': datetime.datetime(2024, 4, 5, 16, 58, 33, 224014), 'updated_at': datetime.datetime(2024, 4, 5, 16, 58, 33, 224042), 'name': 'California'}", "[State] (46e1d370-5e8c-42c8-9635-4058bbb5ba3c) {'id': '46e1d370-5e8c-42c8-9635-4058bbb5ba3c', 'created_at': datetime.datetime(2024, 4, 5, 16, 58, 33, 224454), 'updated_at': datetime.datetime(2024, 4, 5, 16, 58, 33, 224466), 'name': 'Arizona'}"]
+(hbnb) (hbnb) fa45bf83-ded5-4b03-9077-d5fc5e29cfea
+(hbnb) ["[Place] (fa45bf83-ded5-4b03-9077-d5fc5e29cfea) {'id': 'fa45bf83-ded5-4b03-9077-d5fc5e29cfea', 'created_at': datetime.datetime(2024, 4, 5, 16, 58, 33, 224921), 'updated_at': datetime.datetime(2024, 4, 5, 16, 58, 33, 224946), 'city_id': '0001', 'user_id': '0001', 'name': 'My little house', 'number_rooms': '4', 'number_bathrooms': '2', 'max_guest': '10', 'price_by_night': '300', 'latitude': '37.773972', 'longitude': '-122.431297'}"]
+(hbnb) (hbnb) (hbnb) 
