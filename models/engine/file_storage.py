@@ -13,7 +13,6 @@ from models.amenity import Amenity
 from models.review import Review
 
 
-
 class FileStorage:
     """
         FileStorage.
@@ -67,7 +66,6 @@ class FileStorage:
         with open(self.__filepath, "w") as obj_dic:
             json.dump(serialized_obj, obj_dic, indent=2)
 
-
     def reload(self) -> None:
         """
             responsible for reloading the object in file storage and
@@ -87,7 +85,8 @@ class FileStorage:
                     # split the dictionary key
                     cls_name, cls_key = k.split('.')
 
-                    # dynamically create the class object again according to the entry in db.
+                    # dynamically create the class object
+                    # again according to the entry in db.
 
                     # same as doing.
                     global_class = self.ALL_CLASSES[cls_name]
