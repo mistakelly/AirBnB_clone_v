@@ -1,0 +1,2 @@
+This will be written to output.txt
+everything over here would be written to file
